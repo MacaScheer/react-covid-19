@@ -1,0 +1,62 @@
+      #title{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body{
+                display: flex;
+                justify-content: center;
+                flex-direction:column;
+                /* align-self: center; */
+                /* justify-self: center; */
+            }
+            canvas{
+                object-fit: contain;
+            }
+            #population-key {
+                display:flex;
+                flex-direction:column;
+            }
+            #key-list{
+                /* display: flex; */
+                /* flex-direction:row; */
+                width:90px;
+                height: 30px;
+                display:block;
+                list-style:none;
+                text-align: center;
+            }
+            #minor{
+                background-color: #f59338;
+                padding:3px;
+
+            }
+            #teen{
+                background-color: #b21c1c;
+                padding:3px;
+
+            }
+            #adult{
+                background-color: #6666e8;
+                padding:3px;
+
+            }
+            #senior{
+                background-color: #60b4f8;
+                padding:3px;
+
+            }
+            #infected{
+                background-color: #32a850;
+                padding:3px;
+
+            }
+            #diceased{
+                background-color: #808080;
+                padding:3px;
+
+            }
+            #recovered{
+                background-color: #ff6161;
+                padding:3px;
+
+            }
